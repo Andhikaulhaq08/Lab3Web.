@@ -1,4 +1,59 @@
 # Lab3Web.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown dan Listbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label {
+            font-size: 18px;
+            margin-bottom: 5px;
+            display: block;
+        }
+        select, option {
+            font-size: 16px;
+            padding: 5px;
+            width: 200px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contoh Dropdown dan Listbox</h1>
+
+    <!-- Dropdown -->
+    <label for="dropdown">Pilih Negara:</label>
+    <select id="dropdown">
+        <option value="indonesia">Indonesia</option>
+        <option value="malaysia">Malaysia</option>
+        <option value="singapore">Singapore</option>
+        <option value="thailand">Thailand</option>
+    </select>
+
+    <!-- Listbox -->
+    <label for="listbox">Pilih Bahasa Pemrograman (Bisa lebih dari satu):</label>
+    <select id="listbox" multiple size="5">
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+        <option value="java">Java</option>
+        <option value="cpp">C++</option>
+        <option value="php">PHP</option>
+    </select>
+
+</body>
+</html>
+
+<img width="464" alt="image" src="https://github.com/user-attachments/assets/f5aa2f13-5ea7-4434-97ea-629110e1655e">
+
+</body>
+</html>
+
 <form action="proses.php" method="post">
     <fieldset>
         <legend>Login</legend>
